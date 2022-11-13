@@ -1,0 +1,177 @@
+h1, h2, h3, h4, li, p {
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+}
+.lobster {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 3rem;
+}
+.img__header {
+    background-image: url("../img/principal.jpg");
+    background-size: cover;
+    min-height: 360px;
+}
+nav a {
+    font-family: 'Cabin' sans-serif;
+    font-size: 1.5rem;
+}
+header {
+    padding: 9vh 0 5vh 0;
+}
+.carrusel__invisible img {
+    width: 17vw;
+    max-width: 270px;
+    min-width: 155px;
+}
+.lista_ingredientes li {
+    list-style: none;
+}
+header div h1 {
+    font-size: 4rem;
+}
+header h3 {
+    border-style: solid;
+    border-color: #373A3C;
+    border-width: 2px 0 0 0;
+    padding-top: 1.5rem;
+}
+.seccion__media {
+    border-style: solid;
+    border-color: #373A3C;
+    border-width: 2px 0;
+    padding: 2rem 0;
+}
+.seccion__media h3 {
+    padding: 2rem 0;
+    font-weight: 700;
+    user-select: none;
+}
+.seccion__media h4 {
+    font-weight: 700;
+}
+.seccion__media li {
+    font-size: 1.4rem;
+}
+.seccion__media p {
+    font-size: 1.4rem;
+}
+.recetas__relacionadas h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+.recetas__relacionadas h5 {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.recetas__relacionadas p {
+    font-size: 1.5rem;
+}
+.final h4 {
+    color: #ffffff;
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-top: 6rem;
+}
+.final p {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.final a {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.final button {
+    margin: auto;
+}
+.final button {
+    font-size: 1.6rem;
+    width: 25vw;
+    max-width: 230px;
+}
+.tooltip__box1, .tooltip__box2 {
+    display: none;
+}
+
+@media (hover:hover) {
+    .tooltip1 {
+        position: relative;
+    }
+    .tooltip1:hover span {
+        display: inline-block;
+    }
+    .tooltip__box1 {
+        display: none;
+        position: absolute;
+        background-color: #373A3C;
+        line-height: 25px;
+        color: #ffffff;
+        z-index: 1000;
+        text-align: center;
+        font-size: 1rem;
+        padding: 5px 15px;
+        left: 15px;
+        bottom: -87px;
+        border-radius: 5px;
+    }
+    .tooltip__box1::after {
+        content: "";
+        display: block;
+        border-bottom: 10px solid #373A3C;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        position: absolute;
+        top: -10px;
+    }
+    
+    .tooltip2 {
+        position: relative;
+        margin: 0;
+    }
+    .tooltip2:hover span {
+        display: inline-block;
+    }
+    .tooltip__box2 {
+        display: none;
+        position: absolute;
+        background-color: #373A3C;
+        color: #ffffff;
+        z-index: 1000;
+        text-align: center;
+        font-size: 1rem;
+        padding: 5px 15px;
+        left: 180px;
+        top: -10px;
+        border-radius: 5px;
+    }
+    
+    .tooltip__box2::after {
+        content: "";
+        display: block;
+        border-right: 10px solid #373A3C;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        position: absolute;
+        top: 20px;
+        left: -10px;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    header div h1 {
+        font-size: 3rem;
+    }
+    header div button {
+        font-size: 0.2rem;
+    }
+
+}
+.rojo {
+    color: red;
+}
+.shazam{
+    display: none;
+}
